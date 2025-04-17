@@ -27,7 +27,13 @@
 </tr>
                 <tr>
     <td colspan="2">
-        <asp:Button ID="tbnInsert" runat="server" Text="Add Student" OnClick="tbnInsert_Click" /></td>
+        <asp:Button ID="tbnInsert" runat="server" Text="Add Student" OnClick="tbnInsert_Click" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnSearch" runat="server" OnClick="btnSearch_Click" Text="Search Student" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnDelete" runat="server" Enabled="False" OnClick="btnDelete_Click" Text="Delete Record" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnupdate" runat="server" Enabled="False" OnClick="btnupdate_Click" style="height: 26px" Text="Update Record" />
+                    </td>
 </tr>
             </table>
         </div>
